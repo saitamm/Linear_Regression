@@ -1,0 +1,6 @@
+1. Import the tool        → from sklearn.linear_model import LinearRegression
+2. Create the tool        → model = LinearRegression()
+3. Feed it your data      → model.fit(X_train, y_train)
+4. Ask it to predict      → model.predict(X_test)
+5. Check how good it is   → r2_score, MAE, RMSE
+6. Save it                → joblib.dump(model, 'model_linear.pkl')
