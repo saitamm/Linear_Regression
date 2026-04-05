@@ -20,7 +20,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 print(f"Training students : {X_train.shape[0]}")
 print(f"Testing students  : {X_test.shape[0]}")
 
-# 4. Train
+# 4. Train 
 model = LinearRegression()
 model.fit(X_train, y_train)
 
