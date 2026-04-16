@@ -1,4 +1,4 @@
-#!/home/sait-amm/Desktop/linear_Regression/venv/bin/python
+#!/home/sait-amm/Desktop/linear_Regression/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
